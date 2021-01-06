@@ -7,7 +7,7 @@ class GalleryF extends Component{
     render(){
         return(
             <div className="fGallery">
-                <h3>Second Album</h3>
+                <h3>First Album</h3>
                 {Images.map((imagesDetail) => {
                     return(                   
                         <div className="fgallery">

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 
-import fGallery from '../albums/fGallery'
-import sGallery from '../albums/sGallery'
-import tGallery from '../albums/tGallery'
-import favGallery from '../albums/favGallery'
-import Navigation from './navigation'
+import FirstGallery from '../albums/fGallery';
+import SecondGallery from '../albums/sGallery';
+import ThirdGallery from '../albums/tGallery';
+import FavoritesGallery from '../albums/favGallery';
+import Navigation from './navigation';
 import { BrowserRouter, BrowserRouter as Route, Switch } from 'react-router-dom';
 
 class MainContent extends Component{
@@ -14,13 +14,25 @@ class MainContent extends Component{
             <BrowserRouter>
                 <div>
                     <Navigation />
+                    
                     <Switch>
-                        <BrowserRouter>
-                            <Route path="/fGallery" component={fGallery}></Route>
-                            <Route path="/sGallery" component={sGallery}></Route>
-                            <Route path="/tGallery" component={tGallery}></Route>
-                            <Route path="/favGallery" component={favGallery}></Route>
-                        </BrowserRouter>
+
+                        <Route exact path="/">
+                            welome
+                        </Route>
+                        <Route path="/fGallery">
+                            <FirstGallery/>
+                        </Route>
+                        <Route path="/sGallery">
+                            <SecondGallery/>
+                        </Route>
+                        <Route path="/tGallery" >
+                            <ThirdGallery/>
+                        </Route>
+                        <Route path="/favGallery">
+                            <FavoritesGallery/>
+                        </Route>
+                    
                     </Switch>
                 </div>
             </BrowserRouter>
