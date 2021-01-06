@@ -1,0 +1,34 @@
+div.fGallery{
+    width: 90%;
+    margin: auto;
+    height: 1000px;
+    border: 1px solid red;
+    overflow: scroll;
+    position: relative;
+    margin-top: 15px;
+}
+
+div.fgallery{
+    margin: 20px;
+    border: 1px solid white;
+    width: 100px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+
+div.fgallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.fgallery p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+div.fGallery h3{
+    text-align: center;
+    color: white;
+}
