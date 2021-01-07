@@ -1,16 +1,20 @@
-div.fGallery{
+div.photosContent{
     width: 90%;
     margin: auto;
-    height: 1000px;
-    border: 1px solid red;
+    height: 800px;
     overflow: scroll;
     position: relative;
     margin-top: 15px;
+    background-color: white;
+}
+
+div.photosContent h3{
+    text-align: center;
+    color: grey;
 }
 
 div.fgallery{
     margin: 20px;
-    border: 1px solid white;
     width: 100px;
     height: 150px;
     float: left;
@@ -25,10 +29,7 @@ div.fgallery img{
 div.fgallery p{
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
+    color: grey;
 }
 
-div.fGallery h3{
-    text-align: center;
-    color: white;
-}

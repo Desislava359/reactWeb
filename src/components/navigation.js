@@ -1,16 +1,16 @@
 import React from 'react';
  
 import {  Link } from 'react-router-dom';
-import './MainStyle.css'
+import './MainStyle.css';
  
 const Navigation = () => {
     return (
         <div>
-            <div className="albums">
+            <div className="content">
                 <div className="responsive">
                     <div className="galleries">
                         <Link to="/fGallery"><img src="https://www.w3schools.com/css/img_5terre.jpg" alt="fBasic" /></Link>
-                        <p>First album</p>
+                        <p>First Album</p>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ const Navigation = () => {
 
                 <div className="responsive">
                     <div className="galleries">
-                        <Link to="/favGallery"><img src="https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-m.jpg" alt="tBasic" /></Link>
+                        <Link to="/favGallery"><img src="https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-m.jpg" alt="favBasic" /></Link>
                         <p>Favorites</p>
                     </div>
                 </div>

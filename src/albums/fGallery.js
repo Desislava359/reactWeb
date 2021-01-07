@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Images from './fImages.json'
-import './GalleryStyle.css'
+import Images from './fImages.json';
+import './GalleryStyle.css';
 
 class GalleryF extends Component{
     render(){
         return(
-            <div className="fGallery">
+            <div className="photosContent">
                 <h3>First Album</h3>
                 {Images.map((imagesDetail) => {
                     return(                   

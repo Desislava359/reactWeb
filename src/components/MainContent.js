@@ -18,7 +18,7 @@ class MainContent extends Component{
                     <Switch>
 
                         <Route exact path="/">
-                            welome
+                            <h1>Welcome!</h1>
                         </Route>
                         <Route path="/fGallery">
                             <FirstGallery/>
